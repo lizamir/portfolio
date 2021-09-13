@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a6aa5112.chunk.css",
+    "main.js": "/portfolio/static/js/main.99087f1c.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.99087f1c.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.c8414552.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.c8414552.js.map",
+    "static/js/2.b771836a.chunk.js": "/portfolio/static/js/2.b771836a.chunk.js",
+    "static/js/2.b771836a.chunk.js.map": "/portfolio/static/js/2.b771836a.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.a6aa5112.chunk.css.map": "/portfolio/static/css/main.a6aa5112.chunk.css.map",
+    "static/js/2.b771836a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b771836a.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/portfolio/static/media/Segoe-UI.45472284.ttf",
+    "static/media/appsus.fdbf0f04.gif": "/portfolio/static/media/appsus.fdbf0f04.gif",
+    "static/media/Portfolio.scss": "/portfolio/static/media/bgc.447d4d61.jpg",
+    "static/media/Skills.scss": "/portfolio/static/media/bgc2.2e0eff77.jpg",
+    "static/media/bitcoin.8c30c216.gif": "/portfolio/static/media/bitcoin.8c30c216.gif",
+    "static/media/cv.2295651b.svg": "/portfolio/static/media/cv.2295651b.svg",
+    "static/media/email.e6a766d4.svg": "/portfolio/static/media/email.e6a766d4.svg",
+    "static/media/git.04c8598e.svg": "/portfolio/static/media/git.04c8598e.svg",
+    "static/media/linkedin.0a5dc8a1.svg": "/portfolio/static/media/linkedin.0a5dc8a1.svg",
+    "static/media/liz.757e5449.jpeg": "/portfolio/static/media/liz.757e5449.jpeg",
+    "static/media/taskit.4b17f9db.gif": "/portfolio/static/media/taskit.4b17f9db.gif",
+    "static/media/web.60850c4f.png": "/portfolio/static/media/web.60850c4f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8414552.js",
+    "static/js/2.b771836a.chunk.js",
+    "static/css/main.a6aa5112.chunk.css",
+    "static/js/main.99087f1c.chunk.js"
+  ]
+}
