@@ -51,7 +51,7 @@
           font-weight: 700;
         }
         @include mobile {
-          font-size: 12px;
+          font-size: 35px;
         }
       }
       padding: 2%;
@@ -103,7 +103,8 @@
       display: flex;
       justify-content: space-evenly;
       @include mobile {
-        width: 23rem;
+        width: 22rem;
+        margin-inline-end: 10px;
       }
     }
 

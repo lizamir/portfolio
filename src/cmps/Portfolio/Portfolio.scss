@@ -17,7 +17,16 @@
     cursor: pointer;
 
     @include mobile {
-      display: none;
+      top: 100px;
+      &.left {
+        left: 100px;
+        transform: rotateY(180deg);
+      }
+
+      &.right {
+        right: 100px;
+      }
+      // display: none;
     }
 
     &.left {
