@@ -9,7 +9,7 @@ import Liz from '../../assets/img/liz.jpeg';
 
 export const Skills = () => {
   return (
-    <div className="about-container">
+    <div className="about-container" id="skills">
       <div className="about">
         <section>
           <img src={Liz} alt="about-me" />
