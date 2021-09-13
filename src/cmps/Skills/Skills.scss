@@ -1,0 +1,114 @@
+@import '../../assets/scss/main.scss';
+
+.about-container {
+  // background-color: #cfece1;
+  background-image: url('../../assets/img/bgc2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100vh;
+  // min-height: 33rem;
+  padding: 4rem 0;
+  font-family: Roboto, sans-serif;
+
+  .about {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    // justify-content: space-evenly;
+    gap: 15px;
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto;
+
+    @include mobile {
+      grid-template-columns: 1fr 4fr;
+      font-size: 5px;
+      max-width: 100%;
+    }
+
+    img {
+      border: 5px solid #f1d4d4;
+      display: flex;
+      justify-content: left;
+      margin-inline-end: 10px;
+      width: 19rem;
+      border-radius: 50%;
+      margin-block-start: 95px;
+
+      @include mobile {
+        width: 5rem;
+      }
+    }
+
+    .about-card {
+      h1 {
+        font-size: 36px;
+        font-family: GrandHotel;
+        color: #e28693;
+
+        span {
+          font-family: Sacramento;
+          font-weight: 700;
+        }
+        @include mobile {
+          font-size: 12px;
+        }
+      }
+      padding: 2%;
+      font-size: 16px;
+      font-weight: 500;
+      // background-color: #ffefd185;
+      margin-inline-start: 90px;
+      @include mobile {
+        font-size: 10px;
+        margin-inline-start: 0;
+      }
+    }
+  }
+
+  .links-card {
+    border-radius: 25px;
+    font-family: GrandHotel;
+    background-color: #e28693;
+    // color: #ffefd1;
+    float: right;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-right: 2%;
+    .wired-rendered {
+      margin: 0 2%;
+    }
+    .flex {
+      align-items: center;
+      display: flex;
+
+      p {
+        font-family: GrandHotel;
+        font-size: 27px;
+        color: #f1d4d4;
+        @include mobile {
+          font-size: 23px;
+        }
+      }
+    }
+
+    img {
+      cursor: pointer;
+    }
+
+    section {
+      width: 25rem;
+      padding: 2% 3%;
+      display: flex;
+      justify-content: space-evenly;
+      @include mobile {
+        width: 23rem;
+      }
+    }
+
+    p {
+      width: 100%;
+    }
+  }
+}
